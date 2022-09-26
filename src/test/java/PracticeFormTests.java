@@ -21,7 +21,9 @@ public class PracticeFormTests {
 
     @Test
     void fillFormTest() throws IOException, URISyntaxException {
-        open("https://demoqa.com/automation-practice-form");
+        open("/automation-practice-form");
+        executeJavaScript("$('footer').remove()");
+        executeJavaScript("$('#fixedban').remove()");
 
         $("#firstName").setValue("Elena");
         $("#lastName").setValue("Siraeva");
@@ -61,7 +63,7 @@ public class PracticeFormTests {
                 Condition.text("1234567890"),
                 Condition.text("29 November,1990"),
                 Condition.text("Maths"),
-                Condition.text("Sports Reading Music"),
+                Condition.text("Sports, Reading, Music"),
                 Condition.text("Toolsqa.jpg"),
                 Condition.text("bla bla bla"),
                 Condition.text("Haryana Karnal"));
