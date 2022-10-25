@@ -1,3 +1,5 @@
+package tests;
+
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -17,7 +19,6 @@ public class PracticeFormTests {
         Configuration.browserSize = "1700x800";
         Configuration.holdBrowserOpen = true;
     }
-
 
     @Test
     void fillFormTest() throws IOException, URISyntaxException {
@@ -68,6 +69,5 @@ public class PracticeFormTests {
                 Condition.text("bla bla bla"),
                 Condition.text("Haryana Karnal"));
         $("#closeLargeModal").click();
-
     }
 }
