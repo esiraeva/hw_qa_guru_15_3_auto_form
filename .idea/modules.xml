@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hw_qa_guru_15_5_2_faker.iml" filepath="$PROJECT_DIR$/hw_qa_guru_15_5_2_faker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hw_qa_guru_15_5_2_faker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hw_qa_guru_15_5_2_faker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hw_qa_guru_15_5_2_faker.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hw_qa_guru_15_5_2_faker.test.iml" />
+    </modules>
+  </component>
+</project>
